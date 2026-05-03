@@ -1,0 +1,2240 @@
+{
+  "name": "PiliPlus",
+  "subtitle": "Unofficial PiliPlus AltStore source",
+  "description": "Auto-updated AltStore source for PiliPlus",
+  "iconURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/raw/main/assets/images/logo/logo.png",
+  "website": "https://github.com/bebound/PiliPlus-AltStore-Repo",
+  "tintColor": "#00AEEF",
+  "apps": [
+    {
+      "name": "PiliPlus",
+      "bundleIdentifier": "com.bggRGjQaUbCoE.PiliPlus",
+      "developerName": "bggRGjQaUbCoE",
+      "subtitle": "Latest PiliPlus release",
+      "localizedDescription": "PiliPlus iOS app builds from GitHub releases",
+      "iconURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/raw/main/assets/images/logo/logo.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/refs/heads/main/assets/screenshots/home.png",
+        "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/refs/heads/main/assets/screenshots/bangumi.png",
+        "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/refs/heads/main/assets/screenshots/dynamic.png"
+      ],
+      "tintColor": "#00AEEF",
+      "versions": [
+        {
+          "version": "2.0.6",
+          "buildVersion": "4915",
+          "date": "2026-04-30",
+          "localizedDescription": "支持关注分组排序\r\n支持从关注面板创建分组\r\n支持调节全屏 SC 大小 #1910\r\n查看大图时隐藏状态栏、导航栏\r\n优化安卓平板、小窗播放界面 #1908\r\niOS 打开二级页面时支持侧滑关闭整个页面 #1906\r\n评论自由复制面板支持选词屏蔽 #1903 by @My-Responsitories\r\n\r\n优化退出播放页音频停止播放迟缓问题\r\n\r\n修复 #1901\r\n修复 #1904\r\n修复 #1917\r\n修复连接蓝牙键鼠闪退\r\n修复 bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.6/PiliPlus_ios_2.0.6%2B4915.ipa",
+          "size": 24972236,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "2.0.5",
+          "buildVersion": "4886",
+          "date": "2026-04-25",
+          "localizedDescription": "重新支持移除播放页安全边距\r\n支持评论翻译 #1894 co-by @leset0ng\r\n定时关闭退出 APP 时同步视频进度 #1896 by @cnctem\r\nLinux 支持密码、验证码登录 #1889 by @Tobiichi-Origuchi\r\niOS 切换网络时重置网络链接 #1885 by @stephen-zeng @My-Responsitories\r\n\r\n页面优化\r\n优化音量指示器显示 #1899 by @Starfallan\r\n优化处理专栏字体大小 #1897 by @Starfallan\r\n\r\n修复触摸板滑动\r\n修复桌面端富文本插入编辑\r\n修复 bug\r\n\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.5/PiliPlus_ios_2.0.5%2B4886.ipa",
+          "size": 24956612,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "2.0.4",
+          "buildVersion": "4848",
+          "date": "2026-04-14",
+          "localizedDescription": "播放页优化\r\n优化视频旋转方向\r\n优化视频进度条显示 #1887 co-by @cnctem\r\n移动端屏蔽列表底部边缘滑动，避免和系统手势冲突\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.4/PiliPlus_ios_2.0.4%2B4848.ipa",
+          "size": 24961961,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "2.0.3.2",
+          "buildVersion": "4841",
+          "date": "2026-04-11",
+          "localizedDescription": "优化视频旋转方向\r\n\r\n## 2.0.3.1\r\n修复视频返回按钮 @1883 by @HChaZZY\r\n\r\n## 2.0.3\r\n重写视频方向控制逻辑:\r\n解决 iOS 横屏从后台返回自动切换为竖屏问题\r\n解决 iOS 横屏关闭自动旋转自动切换为竖屏问题\r\n解决 Android 横屏返回键切换为竖屏自动切换回横屏问题\r\n\r\n支持悬浮底栏，默认关\r\n用户主页显示预约按钮\r\n添加 Android Shortcut\r\nAndroid 支持添加 UP 至桌面\r\n桌面端离线视频支持在本地文件夹打开\r\n\r\n修复 AppSign\r\n修复弹幕等级屏蔽无效 #1879 by @HChaZZY",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.3.2/PiliPlus_ios_2.0.3%2B4841.ipa",
+          "size": 24957050,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "2.0.3.1",
+          "buildVersion": "4836",
+          "date": "2026-04-09",
+          "localizedDescription": "修复视频返回按钮 @1883 by @HChaZZY\r\n\r\n## 2.0.3\r\n重写视频方向控制逻辑:\r\n解决 iOS 横屏从后台返回自动切换为竖屏问题\r\n解决 iOS 横屏关闭自动旋转自动切换为竖屏问题\r\n解决 Android 横屏返回键切换为竖屏自动切换回横屏问题\r\n\r\n支持悬浮底栏，默认关\r\n用户主页显示预约按钮\r\n添加 Android Shortcut\r\nAndroid 支持添加 UP 至桌面\r\n桌面端离线视频支持在本地文件夹打开\r\n\r\n修复 AppSign\r\n修复弹幕等级屏蔽无效 #1879 by @HChaZZY",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.3.1/PiliPlus_ios_2.0.3%2B4836.ipa",
+          "size": 24957955,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "2.0.3",
+          "buildVersion": "4833",
+          "date": "2026-04-08",
+          "localizedDescription": "重写视频方向控制逻辑:\r\n解决 iOS 横屏从后台返回自动切换为竖屏问题\r\n解决 iOS 横屏关闭自动旋转自动切换为竖屏问题\r\n解决 Android 横屏返回键切换为竖屏自动切换回横屏问题\r\n\r\n支持悬浮底栏，默认关\r\n用户主页显示预约按钮\r\n添加 Android Shortcut\r\nAndroid 支持添加 UP 至桌面\r\n桌面端离线视频支持在本地文件夹打开\r\n\r\n修复 AppSign\r\n修复弹幕等级屏蔽无效 #1879 by @HChaZZY",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.3/PiliPlus_ios_2.0.3%2B4833.ipa",
+          "size": 24944932,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "2.0.2",
+          "buildVersion": "4814",
+          "date": "2026-03-31",
+          "localizedDescription": "性能优化\r\n优化查看图片\r\n优化滑动隐藏 FAB\r\n\r\n支持显示粉丝勋章，默认开\r\n校验 loudnorm 参数 #1871 by @Starfallan\r\n优化 #1868 #1877 by @My-Responsitories\r\nmacOS 启用媒体通知管理 #1872 by @stephen-zeng\r\n添加 Web 端用户投稿，支持页码跳转，按`最多收藏`排序\r\n缓存视频固定使用 HTTP/1.1 #1870 by @HeXis-YS @My-Responsitories\r\n\r\n修复解析动态页 UP 列表 #1876 co-by @ninatan777\r\n修复 bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.2/PiliPlus_ios_2.0.2%2B4814.ipa",
+          "size": 24978956,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "2.0.1.1",
+          "buildVersion": "4775",
+          "date": "2026-03-15",
+          "localizedDescription": "修复自动全屏\r\n修复有音频流时才启用音量均衡 #1865 by @HeXis-YS\r\n其他\r\n\r\n## 2.0.1\r\n页面优化\r\n优化收起顶栏\r\n优化 #1864 by @My-Responsitories\r\n优化加载搜索历史 #1858 by @My-Responsitories\r\n\r\niOS 支持添加 UP 至桌面\r\n支持显示用户收藏集头图\r\n直播封面支持切换预览首帧\r\n支持显示`精选评论`标识 #1857 co-by @Dxee-e\r\n支持记录评论，默认开 by @bggRGjQaUbCoE @My-Responsitories\r\n\r\n修复自动全屏\r\n修复动态链接显示",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.1.1/PiliPlus_ios_2.0.1%2B4775.ipa",
+          "size": 25000751,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "2.0.1",
+          "buildVersion": "4769",
+          "date": "2026-03-14",
+          "localizedDescription": "页面优化\r\n优化收起顶栏\r\n优化 #1864 by @My-Responsitories\r\n优化加载搜索历史 #1858 by @My-Responsitories\r\n\r\niOS 支持添加 UP 至桌面\r\n支持显示用户收藏集头图\r\n直播封面支持切换预览首帧\r\n支持显示`精选评论`标识 #1857 co-by @Dxee-e\r\n支持记录评论，默认开 by @bggRGjQaUbCoE @My-Responsitories\r\n\r\n修复自动全屏\r\n修复动态链接显示",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.1/PiliPlus_ios_2.0.1%2B4769.ipa",
+          "size": 25000596,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "2.0.0.1",
+          "buildVersion": "4721",
+          "date": "2026-03-04",
+          "localizedDescription": "修复部分动态富文本显示\r\n修复触摸板调节音量没有检查`滑动调节音量`属性\r\n修复 bug\r\n\r\n## 2.0.0\r\n听视频支持定时关闭\r\n听视频支持 Sponsor Block\r\nmacOS 响应 CMD+Q #1834 by @cnctem\r\nLinux 支持设置使用SSD #1839 by @just-a-pony\r\n添加播放顺序设置 #1830 by @My-Responsitories\r\n私信视频消息支持显示 UP 主赠言 #1849 by @barmxds6ch\r\n\r\n优化页面\r\n优化收起顶/底栏\r\n优化取消下拉刷新\r\n优化分享视频链接 #1835 co-by @gujial\r\n优化 #1829 #1831 #1832 #1840 #1846 #1854 by @My-Responsitories\r\n\r\n重构播放组件 #1848 by @My-Responsitories\r\n重构查看大图、长图 by @bggRGjQaUbCoE @My-Responsitories\r\n其他\r\n\r\n修复冷启动无法处理 URL Scheme \r\n修复校验 loudnorm 参数 #1838 by @Starfallan\r\n\r\nCI 调整 #1852 by @nlsdt \r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.0.1/PiliPlus_ios_2.0.0%2B4721.ipa",
+          "size": 24968369,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "2.0.0",
+          "buildVersion": "4715",
+          "date": "2026-03-03",
+          "localizedDescription": "听视频支持定时关闭\r\n听视频支持 Sponsor Block\r\nmacOS 响应 CMD+Q #1834 by @cnctem\r\nLinux 支持设置使用SSD #1839 by @just-a-pony\r\n添加播放顺序设置 #1830 by @My-Responsitories\r\n私信视频消息支持显示 UP 主赠言 #1849 by @barmxds6ch\r\n\r\n优化页面\r\n优化收起顶/底栏\r\n优化取消下拉刷新\r\n优化分享视频链接 #1835 co-by @gujial\r\n优化 #1829 #1831 #1832 #1840 #1846 #1854 by @My-Responsitories\r\n\r\n重构播放组件 #1848 by @My-Responsitories\r\n重构查看大图、长图 by @bggRGjQaUbCoE @My-Responsitories\r\n其他\r\n\r\n修复冷启动无法处理 URL Scheme \r\n修复校验 loudnorm 参数 #1838 by @Starfallan\r\n\r\nCI 调整 #1852 by @nlsdt \r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.0/PiliPlus_ios_2.0.0%2B4715.ipa",
+          "size": 24968000,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.6",
+          "buildVersion": "4626",
+          "date": "2026-02-07",
+          "localizedDescription": "优化滑动手势\r\n优化分区 TAB\r\n优化查看评论笔记\r\n优化调整倍速时卡顿 #1813 by @nakixii\r\n\r\n支持调整自动同步(`autosync`)数值\r\n支持快捷切换账号 #1815 co-by @cnctem\r\n稍后再看/收藏搜索添加`复制`/`移动`按钮 #1822 @cnctem\r\n调整 #1816 #1818 #1821 #1826 by @My-Responsitories\r\n支持基于滑动时间设置滑动弹簧参数 #1816 co-by @My-Responsitories\r\n\r\n修复 #1825 by @Wu-HZ\r\n修复动态页 UP 列表 #1819 by @leset0ng\r\n\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.6/PiliPlus_ios_1.1.6%2B4626.ipa",
+          "size": 25139197,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5.7",
+          "buildVersion": "4584",
+          "date": "2026-01-28",
+          "localizedDescription": "优化滑动\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.7/PiliPlus_ios_1.1.5%2B4584.ipa",
+          "size": 25132786,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5.6",
+          "buildVersion": "4577",
+          "date": "2026-01-26",
+          "localizedDescription": "安卓端音频输出回退默认 opensles\r\n安卓端支持选择音频输出 #1811 by @My-Responsitories\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.6/PiliPlus_ios_1.1.5%2B4577.ipa",
+          "size": 25114723,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5.5",
+          "buildVersion": "4573",
+          "date": "2026-01-25",
+          "localizedDescription": "组件/页面优化\r\n桌面端返回优化\r\n横向滑动优化，支持调节滑动阈值\r\n调整 #1806 #1810 by @My-Responsitories\r\n安卓音频输出优先使用 aaudio #1805 by @My-Responsitories\r\n\r\n修复 Web 端推荐\r\n修复 bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.5/PiliPlus_ios_1.1.5%2B4573.ipa",
+          "size": 25108013,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5.4",
+          "buildVersion": "4543",
+          "date": "2026-01-15",
+          "localizedDescription": "支持长按/右键图片显示菜单，默认关\r\n调整 #1802 by @My-Responsitories\r\n支持界面缩放 #1800 co-by @sghhhh\r\nSponsorBlock Api 调整 #1797 by @zjns\r\n添加显示动态互动信息开关 #1798 co-by @sghhhh\r\n\r\n修复 #1799 co-by @KoishiMoe\r\n修复 Linux Task Icon #1800 by @sghhhh\r\n修复无法通过 AltStore/SideStore 安装 IPA #1803 by @KoishiMoe\r\n修复 bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.4/PiliPlus_ios_1.1.5%2B4543.ipa",
+          "size": 25103780,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5.3",
+          "buildVersion": "4526",
+          "date": "2026-01-07",
+          "localizedDescription": "修复 #1795 by @sghhhh\r\n修复 bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.3/PiliPlus_ios_1.1.5%2B4526.ipa",
+          "size": 24632843,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5.2",
+          "buildVersion": "4519",
+          "date": "2026-01-03",
+          "localizedDescription": "增加桌面端音量上限\r\n支持显示动态互动内容\r\nSuperChat 支持常驻显示\r\n投票面板支持查看关注的人的投票\r\n直播弹幕列表支持`@`、`举报`等操作\r\n新增视频画质ID #1794 by @Vixb1122\r\n私信分享支持多选 #1779 co-by @leset0ng\r\n缓存面板显示网络类型 #1781 by @My-Responsitories\r\n同步 [BilibiliSponsorBlock](https://github.com/hanydd/BilibiliSponsorBlock) 片段类型 #1777 co-by @Vixb1122\r\n弹幕支持`固定转滚动`、`滚动弹幕固定速度` #1791 by @My-Responsitories\r\n\r\n页面优化\r\n优化专栏字体颜色\r\n优化 #1776 #1780 #1782 #1785 #1787 #1788 by @My-Responsitories\r\n\r\n修复 #1790 by @My-Responsitories\r\n修复 bug\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.2/PiliPlus_ios_1.1.5%2B4519.ipa",
+          "size": 24619651,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5.1",
+          "buildVersion": "4442",
+          "date": "2025-12-10",
+          "localizedDescription": "页面优化\r\n优化下载\r\n重构 Log #1764 by @My-Responsitories\r\n推荐页单独卡片宽度 #1771 by @LiPolymer\r\n调整 #1762 #1765 #1773 by @My-Responsitories\r\n导入设置/登录信息支持输入 #1772 by @My-Responsitories\r\n修复 bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.1/PiliPlus_ios_1.1.5%2B4442.ipa",
+          "size": 24632567,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5",
+          "buildVersion": "4403",
+          "date": "2025-11-30",
+          "localizedDescription": "支持显示电量\r\n支持 DLNA 投屏\r\n支持显示投票图片\r\n支持加载本地字幕文件\r\n亮度调节支持调节系统亮度\r\n直播支持调整弹幕，查看播放信息\r\n重构 CDN 功能 #1743 by @My-Responsitories\r\n离线播放支持媒体通知控制 #1748 co-by @staoran\r\n支持离线缓存/播放 by @bggRGjQaUbCoE @My-Responsitories\r\n空降助手优化/支持绑定 YTB 视频 #1751 by @My-Responsitories\r\n弹幕优化，高级弹幕屏蔽移至弹幕设置 #1756 by @My-Responsitories\r\n支持编辑弹幕屏蔽规则，显示空降助手用户信息 #1738 by @My-Responsitories\r\n\r\n页面优化\r\n优化投票选项\r\n优化 Windows Alt 键平移视频画面\r\n\r\n修复 CDN 相关 #1739 by @iKirby\r\n修复动态解析\r\n修复 bug\r\n\r\n其他\r\n其他调整 #1742 #1745 #1746 #1747 #1750 #1753 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5/PiliPlus_ios_1.1.5%2B4403.ipa",
+          "size": 24632441,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5-pre8",
+          "buildVersion": "4389",
+          "date": "2025-11-23",
+          "localizedDescription": "bug fixes",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre8/PiliPlus_ios_1.1.5%2B4389.ipa",
+          "size": 24624365,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5-pre7",
+          "buildVersion": "4384",
+          "date": "2025-11-22",
+          "localizedDescription": "页面优化\r\n支持显示电量\r\n直播支持调整弹幕，查看播放信息\r\n代码优化 #1750 by @My-Responsitories\r\n空降助手优化/支持绑定 YTB 视频 #1751 by @My-Responsitories\r\n修复 bug\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre7/PiliPlus_ios_1.1.5%2B4384.ipa",
+          "size": 24622129,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5-pre6",
+          "buildVersion": "4357",
+          "date": "2025-11-17",
+          "localizedDescription": "重构 CDN 功能 #1743 by @My-Responsitories\r\n离线播放支持媒体通知控制 #1748 co-by @staoran\r\n其他调整 #1742 #1745 #1746 #1747 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre6/PiliPlus_ios_1.1.5%2B4357.ipa",
+          "size": 24567627,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5-pre5",
+          "buildVersion": "4348",
+          "date": "2025-11-15",
+          "localizedDescription": "fix wakelock",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre5/PiliPlus_ios_1.1.5%2B4348.ipa",
+          "size": 24557486,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5-pre4",
+          "buildVersion": "4347",
+          "date": "2025-11-14",
+          "localizedDescription": "flutter 3.38\r\n修复 CDN 相关 #1739 by @iKirby\r\n支持编辑弹幕屏蔽规则，显示空降助手用户信息 #1738 by @My-Responsitories\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre4/PiliPlus_ios_1.1.5%2B4347.ipa",
+          "size": 24558900,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5-pre3",
+          "buildVersion": "4337",
+          "date": "2025-11-12",
+          "localizedDescription": "支持 DLNA 投屏\r\n优化视频/弹幕缓存 #1737 by @My-Responsitories\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre3/PiliPlus_ios_1.1.5%2B4337.ipa",
+          "size": 24526198,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5-pre2",
+          "buildVersion": "4336",
+          "date": "2025-11-12",
+          "localizedDescription": "支持 DLNA 投屏\r\n优化视频/弹幕缓存 #1737 by @My-Responsitories\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre2/PiliPlus_ios_1.1.5%2B4336.ipa",
+          "size": 24526291,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.5-pre",
+          "buildVersion": "4328",
+          "date": "2025-11-10",
+          "localizedDescription": "支持显示投票图片\r\n支持离线缓存/播放\r\n支持加载本地字幕文件\r\n亮度调节支持调节系统亮度\r\n\r\n优化投票选项\r\n优化 Windows Alt 键平移视频画面\r\n\r\n修复动态解析\r\n修复 bug\r\n\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre/PiliPlus_ios_1.1.5%2B4328.ipa",
+          "size": 24498433,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.17",
+          "buildVersion": "4306",
+          "date": "2025-10-28",
+          "localizedDescription": "bug fixes",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.17/PiliPlus_ios_1.1.4%2B4306.ipa",
+          "size": 24409235,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.16",
+          "buildVersion": "4296",
+          "date": "2025-10-27",
+          "localizedDescription": "修复 #1641 #1712 #1716\r\n修复 #1696 by @My-Responsitories\r\n调整 #1697 #1706 by @My-Responsitories\r\n打包 Linux AppImage #1575 by @Axiaobo7788\r\n视频菜单查看 AI 总结 #1666 #1698 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.16/PiliPlus_ios_1.1.4%2B4296.ipa",
+          "size": 24405008,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.15",
+          "buildVersion": "4285",
+          "date": "2025-10-24",
+          "localizedDescription": "页面优化\r\n修复 #1680 #1684",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.15/PiliPlus_ios_1.1.4%2B4285.ipa",
+          "size": 24413811,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.14",
+          "buildVersion": "4282",
+          "date": "2025-10-21",
+          "localizedDescription": "动态支持`查看更多` #1629\r\n首页直播添加赛事入口 #1628\r\n音频播放支持切换排序方式 #1636\r\n音频播放支持获取合集列表、切换分P\r\n\r\n修复 #1616\r\n修复 #1648 co-by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.14/PiliPlus_ios_1.1.4%2B4282.ipa",
+          "size": 24416038,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.13",
+          "buildVersion": "4266",
+          "date": "2025-10-19",
+          "localizedDescription": "优化 #1630\r\n听音频支持媒体通知控制 #1635\r\n显示弹幕点赞数 #1640 by @My-Responsitories\r\n支持弹幕空降功能 #1603 by @My-Responsitories\r\n添加 Linux Arm64 构建测试 #1610 by @Axiaobo7788\r\n\r\n修复 #1613 #1615\r\n修复高级弹幕 #1619 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.13/PiliPlus_ios_1.1.4%2B4266.ipa",
+          "size": 24398659,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.12",
+          "date": "2025-10-17",
+          "localizedDescription": "修复bug\r\n\r\n弹幕优化 by @My-Responsitories\r\n\r\n## 1.1.4.11\r\n支持关闭显示托盘图标\r\n支持查看用户共同关注\r\n支持解析关注页 scheme #1566\r\n避免 Windows 运行多个实例 #1574\r\n打包 Linux rpm #1575 by @Axiaobo7788\r\n音频播放页支持获取当前视频播放列表 #1547\r\n全屏按钮右键触发应用内全屏 #1553 #1561 by @My-Responsitories\r\n支持 ctrl、shift、alt + 鼠标滚轮 缩放与平移 #1555 by @My-Responsitories\r\n**移动端**支持点击弹幕悬停，点赞、复制、举报，默认开启 by @My-Responsitories\r\n\r\n弹幕优化 by @My-Responsitories\r\n播放器优化 #1555 by @My-Responsitories\r\n优化保存图片，其他调整 #1562 by @My-Responsitories\r\n\r\n修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.12/ios-release-no-sign.ipa",
+          "size": 24408250,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.11",
+          "date": "2025-10-16",
+          "localizedDescription": "支持关闭显示托盘图标\r\n支持查看用户共同关注\r\n支持解析关注页 scheme #1566\r\n避免 Windows 运行多个实例 #1574\r\n打包 Linux rpm #1575 by @Axiaobo7788\r\n音频播放页支持获取当前视频播放列表 #1547\r\n支持 ctrl、shift、alt + 鼠标滚轮 缩放与平移 #1555 by @My-Responsitories\r\n**移动端**支持点击弹幕悬停，点赞、复制、举报，默认开启 by @My-Responsitories\r\n\r\n弹幕优化 by @My-Responsitories\r\n播放器优化 #1555 by @My-Responsitories\r\n优化保存图片，其他调整 #1562 by @My-Responsitories\r\n\r\n修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.11/ios-release-no-sign.ipa",
+          "size": 24403713,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.10",
+          "date": "2025-10-13",
+          "localizedDescription": "支持播放音频 #1336\r\n历史记录显示`已收藏`标识 #1515\r\n支持跳过番剧片头/片尾，默认跳过一次 #1461\r\n支持查看`当前弹幕列表` by @My-Responsitories\r\n\r\n页面优化\r\n弹幕优化 by @My-Responsitories\r\n优化构建 #1510 by @My-Responsitories\r\n\r\n修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.10/ios-release-no-sign.ipa",
+          "size": 24377145,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.8",
+          "date": "2025-10-05",
+          "localizedDescription": "优化 #1427 #1430\r\n支持鼠标中键切换全屏\r\n支持鼠标右键切换应用内全屏\r\n桌面端全局响应 Esc 键 #1431\r\n支持触控板滑动调节音量、进度\r\n添加 deb 编译 #1422 by @nlsdt\r\n添加 exe 构建 #1454 by @Axiaobo7788\r\n代码优化 #1444 by @My-Responsitories\r\n添加 VSCode 任务流 #1433 by @VillagerTom\r\n\r\n修复 #1418 #1429 #1441 #1442 #1443 #1448 \r\n修复`点赞详情`加载更多 #1435 #1438 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.8/ios-release-no-sign.ipa",
+          "size": 24298753,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.7",
+          "date": "2025-10-02",
+          "localizedDescription": "优化鼠标后退键\r\n优化播放全部 #1383\r\n支持鼠标滚轮调节音量\r\n更新 Windows MPV #1341\r\n播放器手势适配桌面端触摸屏 #1374\r\n代码优化 #1381 by @My-Responsitories\r\n支持按 `Enter` 键跳过手动跳过的片段 #1379\r\n避免 Linux 运行多个实例 #1385 by @Integral-Tech\r\n添加 `.fvmrc` 配置 #1413 #1417 by @Integral-Tech\r\n\r\n修复 bug #1384 by @My-Responsitories\r\n修复搜索 #1406 #1412 by @My-Responsitories\r\n修复 #1349，安卓端 `loudnorm` 适配 #1358 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.7/ios-release-no-sign.ipa",
+          "size": 24307461,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.6",
+          "date": "2025-09-28",
+          "localizedDescription": "优化 #1328\r\n优化专栏 #1338 #1352\r\n字幕显示 AI 提示 #1357\r\n调整字幕顺序，优先中文\r\n修复 #1326 #1337 #1343\r\n页面优化，其他调整 #1325 by @My-Responsitories\r\n\r\n桌面端：\r\n支持鼠标拖拽刷新\r\n适配鼠标后退键 #1317\r\n支持 Windows WebView\r\nLinux 平台判断 #1331 by @nlsdt\r\n添加 Linux 编译 #1332 by @nlsdt\r\n评论等组件使用鼠标右键弹出菜单\r\n支持最小化暂停/还原时播放，默认关\r\nWin/Mac 支持极验、短信登录 #1342 by @My-Responsitories\r\n`Shift + F` 切换应用内全屏 #1329 #1330 co-by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.6/ios-release-no-sign.ipa",
+          "size": 24357714,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.5",
+          "date": "2025-09-25",
+          "localizedDescription": "适配 Windows\r\n支持开启 `AI 原声翻译` #1285\r\n适配网页端键盘快捷键 #1225\r\n安卓支持搜索音乐 #1270 by @My-Responsitories\r\n`查看对话`支持跳转回复 #1252 by @My-Responsitories\r\n播放信息支持显示硬解信息 #1261 by @My-Responsitories\r\n增加硬解选项，支持多选 #1268 #1269 co-by @My-Responsitories\r\n\r\n页面优化\r\n弹幕优化\r\n优化 #1292\r\nMac 界面优化 #1260 by @zjns\r\n优化 Mac 启动 #1287 by @zjns\r\n账号优化 #1306 by @My-Responsitories\r\n优化硬解模式选择 #1290 by @My-Responsitories\r\n播放页面、二级页面、其他页面调整/优化 #1252 co-by @My-Responsitories\r\n\r\n修复 bug\r\n修复 #1278 #1286 #1300 #1302\r\n修复 Mac 保存图片 #1260 by @zjns",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.5/ios-release-no-sign.ipa",
+          "size": 24303401,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.4",
+          "date": "2025-09-10",
+          "localizedDescription": "页面优化\r\n优化 #826\r\n支持显示直播 SuperChat，默认开\r\n优化 AI总结 toast #1197 by @zjns\r\n新增键盘控制播放 #1203 by @zjns\r\n页面优化 #1187 by @My-Responsitories\r\n优化保存 bgm 评论 #1177 #1187 by @My-Responsitories\r\n实现dynaudnorm和webp_anim支持 #1186 by @My-Responsitories\r\n\r\n修复 #1164 #1198\r\n修复 dolby 视频播放 #1202 by @zjns\r\n修复 mac 平台应用名称 #1199 by @zjns\r\n修复bug\r\n\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.4/ios-release-no-sign.ipa",
+          "size": 23265542,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.3",
+          "date": "2025-08-29",
+          "localizedDescription": "修复 #1156 #1159 #1169 #1173\r\n新的 Marquee 实现 #1157 by @My-Responsitories\r\n新增 bgm 跳转，查看 bgm 页面功能 #1157 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.3/ios-release-no-sign.ipa",
+          "size": 23297470,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.2",
+          "date": "2025-08-28",
+          "localizedDescription": "页面优化\r\n优化 #1110 #1155\r\n过滤动态视频类型 #1075\r\n支持查看登录设备 #1140\r\n修复 #1108 #1139 #1143\r\n支持折叠合作视频动态 #1153\r\n侧滑关闭支持从右侧关闭 #1135\r\n优化 scheme 解析 #1126 #1130\r\n增加静默下载图片选项，默认关 #1030\r\n代码优化 #1142 by @My-Responsitories\r\n增加全屏不显示锁定/截图按钮选项 #1103 #1150\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.2/ios-release-no-sign.ipa",
+          "size": 23284708,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4.1",
+          "date": "2025-08-24",
+          "localizedDescription": "优化 #1095\r\n修复 #1098\r\n修复 latex #1094 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.1/ios-release-no-sign.ipa",
+          "size": 23274963,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.4",
+          "date": "2025-08-23",
+          "localizedDescription": "1.1.4\r\n支持播放课堂视频\r\n解析合集链接 #995\r\n优化直播仅播放音频\r\n合并我的、媒体库页面\r\n显示动态课堂类型 #1064\r\n过滤标题含有过滤词的动态\r\n快速收藏支持设置默认收藏夹\r\n全屏底栏增加切换画质按钮 #1081\r\n富文本编辑支持复制表情文字 #1047\r\n视频画面支持设置`4:3`、`16:9`比例 #1040\r\n用户主页显示`关注的人也关注了TA`相关信息 #1033\r\n支持导入导出搜索历史 #1048 by @My-Responsitories\r\n增加顶/底栏滚动阈值选项，默认关 #910 by @yeahnangua\r\n支持降低夜间模式下图片亮度，默认关 #988 by @My-Responsitories\r\n支持播放器设置仅对当前视频生效，默认关 #977 by @My-Responsitories\r\n历史记录/稍后再看/收藏搜索页面支持多选删除 #935 #937 by @My-Responsitories\r\n\r\n页面优化\r\n优化视频预览\r\n优化视频 loading 图片 #1080\r\n优化三连动画 co-by @My-Responsitories\r\n性能优化 #1004 #1005 by @My-Responsitories\r\n优化 #983 #990 #996 #972  #1050 #1072 #1074\r\n优化点赞/投币/收藏 #916 by @My-Responsitories\r\n优化导入导出设置/账号信息 #1048 by @My-Responsitories\r\n\r\n修复安卓搜索 intent #934 co-by @qpst4\r\n修复保存动态 #917 by @My-Responsitories\r\n修复 #877 #878 #887 #897 #943 #1007 #1087 #1088\r\n修复 iOS 从后台恢复时全屏方向问题 #902 by @yeahnangua\r\n修复bug\r\n\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4/ios-release-no-sign.ipa",
+          "size": 23272728,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.40-fix",
+          "date": "2025-07-15",
+          "localizedDescription": "修复部分平板全屏问题 #873 by @zhufengning\r\n修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.40-fix/ios-release-no-sign.ipa",
+          "size": 23293595,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.40",
+          "date": "2025-07-11",
+          "localizedDescription": "优化发布页\r\n支持多选@用户\r\n增加 emoji tooltip\r\n修复移除置顶动态\r\n私信消息显示`自动回复`提示\r\n更多页面显示`充电专属`/`合作`标识\r\n修复空间设置 #872 by @leung-ming\r\n修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.40/ios-release-no-sign.ipa",
+          "size": 23287637,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.39-fix3",
+          "date": "2025-07-06",
+          "localizedDescription": "修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.39-fix3/ios-release-no-sign.ipa",
+          "size": 23246521,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.39-fix2",
+          "date": "2025-07-06",
+          "localizedDescription": "修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.39-fix2/ios-release-no-sign.ipa",
+          "size": 23242145,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.39-fix",
+          "date": "2025-07-02",
+          "localizedDescription": "修复bug\r\n\r\n## 1.1.3.39\r\n优化`查看更多`提示\r\n支持查看点赞通知详情\r\n增加首页返回直接退出选项 #870 by @wliu6v\r\n发布动态/评论支持`富文本编辑`、`表情显示`、`@用户`\r\n界面优化",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.39-fix/ios-release-no-sign.ipa",
+          "size": 23230567,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.39",
+          "date": "2025-07-01",
+          "localizedDescription": "优化`查看更多`提示\r\n支持查看点赞通知详情\r\n增加首页返回直接退出选项 #870 by @wliu6v\r\n发布动态/评论支持`富文本编辑`、`表情显示`、`@用户`\r\n界面优化",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.39/ios-release-no-sign.ipa",
+          "size": 23229367,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.38",
+          "date": "2025-06-14",
+          "localizedDescription": "优化空降助手跳转 #869 by @My-Responsitories\r\n修复bug\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.38/ios-release-no-sign.ipa",
+          "size": 23068188,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.37-fix2",
+          "date": "2025-06-01",
+          "localizedDescription": "修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.37-fix2/ios-release-no-sign.ipa",
+          "size": 23082433,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.37-fix",
+          "date": "2025-06-01",
+          "localizedDescription": "修复链接跳转",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.37-fix/ios-release-no-sign.ipa",
+          "size": 23082581,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.37",
+          "date": "2025-06-01",
+          "localizedDescription": "修复检查评论\r\n修复bug\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.37/ios-release-no-sign.ipa",
+          "size": 23085522,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.36",
+          "date": "2025-05-28",
+          "localizedDescription": "修复直播弹幕\r\n优化侧滑关闭\r\n支持 pgc 点评\r\n优化发布/转发动态\r\n优化 #861 #862 #863 #866 by @My-Responsitories\r\n修复bug\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.36/ios-release-no-sign.ipa",
+          "size": 22975315,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.35",
+          "date": "2025-05-20",
+          "localizedDescription": "支持修改消息设置\r\n支持修改聊天设置\r\n支持展示折叠消息 #837\r\n支持查看专栏文集 #841\r\n支持查看用户图文 #833\r\n优化 #856 by @Suda-Baka\r\n支持动态关键词过滤 #860 by @My-Responsitories\r\n优化 #842 #846 #849 #850 #851 #852 #858 by @My-Responsitories\r\n修复bug\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.35/ios-release-no-sign.ipa",
+          "size": 24301207,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.34",
+          "date": "2025-05-08",
+          "localizedDescription": "优化消息页面\r\n优化专栏 #802\r\n修复 #817 #829\r\n重写首页直播页面\r\n支持查看直播分区\r\n支持查看动态话题\r\n支持一键已读私信消息\r\n收到的赞支持设置通知 #821\r\n修复 #779 #816 #825 by @My-Responsitories\r\n新的查看投票面板 #807 by @My-Responsitories\r\n优化搜索scheme #801 #804 by @My-Responsitories\r\n修复 three point #790 #792 by @My-Responsitories\r\nWebDAV 备份恢复区分手机/平板 #739 #794 by @Suda-Baka\r\n优化 #787 #788 #799 #812 #813 #814 #816 #824 by @My-Responsitories\r\n修复bug\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.34/ios-release-no-sign.ipa",
+          "size": 23848526,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.33",
+          "date": "2025-04-30",
+          "localizedDescription": "更新分区ID #747\r\n修复 #715 #746 #756\r\n重新启用过滤APP端推荐分区\r\n优化 #755 #759 #761 #767 #775\r\n支持分享`视频`/`番剧`/`动态`/`专栏`/`直播`至消息 #693\r\n优化专栏 by @bggRGjQaUbCoE & @My-Responsitories\r\n优化动态，长按弹出菜单 #737 #738 by @My-Responsitories\r\n修复bug\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.33/ios-release-no-sign.ipa",
+          "size": 23556055,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.32",
+          "date": "2025-04-23",
+          "localizedDescription": "优化 #697\r\n修复 #715\r\n支持置顶动态\r\n修复关注用户 #700\r\n支持收藏专栏 #727\r\n支持移除粉丝 #733\r\n增加最大缓存大小选项\r\n支持创建/修改/删除关注分组\r\n调整平板导航栏，默认开 #692\r\n支持稍后再看被转发的视频 #729\r\n修复评论楼中楼按热度排序 #723\r\n支持展示评论转发到动态图片 #691\r\n修复 #702，优化 #731 by @My-Responsitories\r\n支持展示搜索发现，默认开 #694 by @My-Responsitories\r\n修复bug\r\n界面优化\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.32/ios-release-no-sign.ipa",
+          "size": 22497599,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.31",
+          "date": "2025-04-15",
+          "localizedDescription": "支持收藏夹排序\r\n优化 #648 #661 #673\r\n支持发送会员彩色弹幕\r\n直播弹幕支持发送表情\r\n可选页面过渡动画 #682\r\n增加展示追番时间表 #653\r\n支持查看完整热搜榜单 #678\r\n支持显示硬核会员等级图标 #687\r\n调整平板布局 #660 by @allllllllllla\r\n修复 #656 #658 #665 #668 #675 #680\r\n稍后再看支持查看`未看`/`未看完`/`已看完`分类\r\n优化保存评论/动态 #657 by @My-Responsitories\r\n滑动快进/快退支持使用相对时长 #662 by @My-Responsitories\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.31/ios-release-no-sign.ipa",
+          "size": 22489107,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.30",
+          "date": "2025-04-09",
+          "localizedDescription": "支持删除通知消息\r\n支持保存图片动态\r\n优化空降助手 #633\r\n优化搜索动态 #641\r\n修复 #630 #634 #639\r\n支持保存图片评论 #614\r\n优化 #615 #618 #619 #622 #644\r\n支持 WebDAV 备份/恢复设置 #432\r\n优化 #645 by @My-Responsitories\r\n修复 #624 #646 by @My-Responsitories\r\n支持高级弹幕，默认关 #91 #219 #394 #602 #613 by @My-Responsitories\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.30/ios-release-no-sign.ipa",
+          "size": 22436332,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.29",
+          "date": "2025-04-05",
+          "localizedDescription": "过滤高级弹幕 #602\r\n优化 #590 #597 #605\r\n支持关闭记录搜索历史 #592\r\n修复查看动态，优化动态跳转 #607\r\n支持自定义快进/快退时长 #366 #601\r\n支持拖拽字幕调整底部边距，默认关 #588\r\n修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.29/ios-release-no-sign.ipa",
+          "size": 22388147,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.28",
+          "date": "2025-04-03",
+          "localizedDescription": "修复查看评论\r\n\r\n## 1.1.3.27\r\n修复 #576\r\n优化记笔记\r\n优化图片预览/保存\r\n支持取消/置顶评论 #589\r\n支持手动检查动态可见状态\r\n优化 #591 by @My-Responsitories\r\n用户主页支持定位至上次观看视频 #453\r\n优化 #369 #563 #569 #571 #581 #584 #585 #586 #587\r\n增加静音自动开启字幕选项 #564 by @My-Responsitories\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.28/ios-release-no-sign.ipa",
+          "size": 22383293,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.27",
+          "date": "2025-04-03",
+          "localizedDescription": "修复 #576\r\n优化记笔记\r\n优化图片预览/保存\r\n支持取消/置顶评论 #589\r\n支持手动检查动态可见状态\r\n优化 #591 by @My-Responsitories\r\n用户主页支持定位至上次观看视频 #453\r\n优化 #369 #563 #569 #571 #581 #584 #585 #586 #587\r\n增加静音自动开启字幕选项 #564 by @My-Responsitories\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.27/ios-release-no-sign.ipa",
+          "size": 22383304,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.26",
+          "date": "2025-03-29",
+          "localizedDescription": "支持记笔记 #554\r\n优化字幕加载 #553\r\nApi 优化 #552 by @My-Responsitories\r\n收藏页支持查看追番/追剧/专栏/笔记 #402\r\n优化图片上传/下载 #556 by @My-Responsitories\r\n修复 #344 #543 #544 #555 #546 #547 #551 #558",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.26/ios-release-no-sign.ipa",
+          "size": 22420067,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.25",
+          "date": "2025-03-27",
+          "localizedDescription": "修复 #526\r\n优化听视频 #519\r\n支持收藏夹视频排序 #530\r\n支持调节App字体字重 #533\r\n支持查看观看记录分类 #473\r\n支持调整静态弹幕时长 #479\r\n支持过滤视频播放量 #529 by @My-Responsitories\r\n优化 #520 #523 #524 #529 by @My-Responsitories\r\n优化 #437 #483 #488 #507 #513 #514 #528 #531 #540\r\n修复bug\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.25/ios-release-no-sign.ipa",
+          "size": 22386372,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.24",
+          "date": "2025-03-24",
+          "localizedDescription": "优化 #465\r\n修复 #516 #517\r\n优化字幕 #160 #511 #515\r\n增加直播默认画质选项 #464\r\n优化视频切换逻辑 #503 #506\r\n修复 #510 by @My-Responsitories\r\n优化黑名单 #501 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.24/ios-release-no-sign.ipa",
+          "size": 22393704,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.23",
+          "date": "2025-03-23",
+          "localizedDescription": "修复 #467 #470\r\n添加字幕描边 #446\r\n支持保存字幕 #495\r\n弹幕过滤优化 #486 by @My-Responsitories\r\n优化 #439 #448 #450 #451 #457 #459 #462 #481\r\n网络请求重试 #484 #489 by @My-Responsitories\r\n支持多账号 #215 #455 #468 by @My-Responsitories\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.23/ios-release-no-sign.ipa",
+          "size": 22390011,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.22",
+          "date": "2025-03-13",
+          "localizedDescription": "修复 #404 #438\r\n增加手动检查评论 #407\r\n修复bug #411 by @My-Responsitories\r\n增加视频播放页单独使用深色主题选项 #420\r\n优化 #223 #361 #397 #405 #410 #412 #414 #416 #417 #422 #423 #424 #427 #436\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.22/ios-release-no-sign.ipa",
+          "size": 22330446,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.21",
+          "date": "2025-03-07",
+          "localizedDescription": "展示合并弹幕的数量\r\n修复 #359 #381 #383\r\n支持侧滑关闭更多页面\r\n支持查看视频笔记 #376\r\n修复图片缩略图url #360\r\n接口更新 #375 by @My-Responsitories\r\n新的举报评论界面 #384 #385 by @My-Responsitories\r\n优化 #206 #305 #329 #349 #362 #365 #379 #387 #388 #390 #391\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.21/ios-release-no-sign.ipa",
+          "size": 22317710,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.20",
+          "date": "2025-03-01",
+          "localizedDescription": "优化 #350\r\n修复 #343 #351 #352",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.20/ios-release-no-sign.ipa",
+          "size": 22294342,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.19",
+          "date": "2025-02-28",
+          "localizedDescription": "修复bug #337 #339 #340 #341 #343 #345",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.19/ios-release-no-sign.ipa",
+          "size": 22286274,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.18",
+          "date": "2025-02-27",
+          "localizedDescription": "修复 #330 #334\r\n优化横屏直播界面 #62\r\n过滤转发的带货动态 #309\r\n支持侧滑关闭二级评论页面\r\n滑动快进/快退支持取消 #319\r\n增加可折叠播放页面 #75 #327\r\n优化 #208 #302 #306 #318 #322\r\ngRPC更换 #313  by @My-Responsitories\r\ngRPC获取完整弹幕 #306  by @My-Responsitories\r\n自定义滑动弹簧动画参数  #304 by @My-Responsitories\r\n修复bug\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.18/ios-release-no-sign.ipa",
+          "size": 22288370,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.17",
+          "date": "2025-02-22",
+          "localizedDescription": "回退 #299\r\n\r\n## 1.1.3.16\r\n修复关注用户 #295\r\n修复侧栏访问UP主页 #294\r\n优化 #283 #284 #293 #299\r\n过滤mcdn #281 by @My-Responsitories\r\n优化弹幕过滤 #296 by @My-Responsitories\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.17/ios-release-no-sign.ipa",
+          "size": 22253905,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.16",
+          "date": "2025-02-22",
+          "localizedDescription": "修复关注用户 #295\r\n修复侧栏访问UP主页 #294\r\n优化 #283 #284 #293 #299\r\n过滤mcdn #281 by @My-Responsitories\r\n优化弹幕过滤 #296 by @My-Responsitories\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.16/ios-release-no-sign.ipa",
+          "size": 22252065,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.15",
+          "date": "2025-02-19",
+          "localizedDescription": "优化 #280\r\n支持分享视频到动态 #279\r\n支持使用 [哔哩发评反诈](https://github.com/freedom-introvert/biliSendCommAntifraud) 检查评论 #275\r\n支持发布/转发动态反诈，默认关 #278\r\n支持屏蔽带货动态/评论，默认关 #276 #277",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.15/ios-release-no-sign.ipa",
+          "size": 22248738,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.14",
+          "date": "2025-02-16",
+          "localizedDescription": "修复查看转发的动态\r\n\r\n## 1.1.3.13\r\n修复 #263\r\n增加 #235\r\n优化 #97 #237\r\n增加pgc索引页面 #216",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.14/ios-release-no-sign.ipa",
+          "size": 22237857,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.13",
+          "date": "2025-02-16",
+          "localizedDescription": "修复 #263\r\n增加 #235\r\n优化 #97 #237\r\n增加pgc索引页面 #216",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.13/ios-release-no-sign.ipa",
+          "size": 22238101,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.12",
+          "date": "2025-02-15",
+          "localizedDescription": "fix: #261\r\n\r\n## 1.1.3.11\r\n修复 #257\r\n支持撤回私信消息\r\n增加纯黑主题 #254\r\n优化 #253 #259 #260\r\n修复其他bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.12/ios-release-no-sign.ipa",
+          "size": 22213626,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.11",
+          "date": "2025-02-15",
+          "localizedDescription": "修复 #257\r\n支持撤回私信消息\r\n增加纯黑主题 #254\r\n优化 #253 #259 #260\r\n修复其他bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.11/ios-release-no-sign.ipa",
+          "size": 22227766,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.10",
+          "date": "2025-02-13",
+          "localizedDescription": "优化链接跳转\r\n修复 #239 #240 #243 #244",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.10/ios-release-no-sign.ipa",
+          "size": 22231349,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.9",
+          "date": "2025-02-12",
+          "localizedDescription": "优化链接跳转\r\n优化 #209 #211\r\n展示动态表情 #212\r\n修复 #217 #226 #232\r\n增加`还原屏幕`按钮 #222\r\n增加投币同时点赞选项 #231\r\n视频页展示UP详细信息 #229\r\nUP主页投稿展示观看进度 #225\r\n修复bug\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.9/ios-release-no-sign.ipa",
+          "size": 22237050,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.8",
+          "date": "2025-02-07",
+          "localizedDescription": "优化 #194\r\n修复 #199\r\n简单支持互动视频\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.8/ios-release-no-sign.ipa",
+          "size": 22227306,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.7",
+          "date": "2025-02-04",
+          "localizedDescription": "修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.7/ios-release-no-sign.ipa",
+          "size": 22223605,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.6",
+          "date": "2025-02-03",
+          "localizedDescription": "增加评论转发至动态\r\n支持发评反诈，默认关\r\n修复bug\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.6/ios-release-no-sign.ipa",
+          "size": 22223241,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.5",
+          "date": "2025-01-31",
+          "localizedDescription": "支持显示高能进度条(弹幕趋势图)，默认关\r\n修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.5/ios-release-no-sign.ipa",
+          "size": 22220298,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.4",
+          "date": "2025-01-30",
+          "localizedDescription": "修复预览视频缩略图\r\n\r\n## 1.1.3.3\r\n优化收藏逻辑\r\niOS 支持保存为 LivePhoto\r\n支持滑动跳转时预览视频缩略图\r\n修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.4/ios-release-no-sign.ipa",
+          "size": 22143395,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.3",
+          "date": "2025-01-30",
+          "localizedDescription": "优化收藏逻辑\r\niOS 支持保存为 LivePhoto\r\n支持滑动跳转时预览视频缩略图\r\n修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.3/ios-release-no-sign.ipa",
+          "size": 22143640,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.2",
+          "date": "2025-01-28",
+          "localizedDescription": "支持 Live Photo\r\n增加展示头像/评论/动态装饰开关\r\n支持复制/移动收藏夹/稍后再看视频\r\n修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.2/ios-release-no-sign.ipa",
+          "size": 22075056,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3.1",
+          "date": "2025-01-26",
+          "localizedDescription": "更新安卓图标\r\n尝试修复CDN测试",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3.1/ios-release-no-sign.ipa",
+          "size": 21998120,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.3",
+          "date": "2025-01-25",
+          "localizedDescription": "> [!IMPORTANT]\r\n> 更换包名\r\n\r\n更换图标\r\n修复会员彩色弹幕\r\n优化横屏搜索页、设置页\r\n增加提前初始化播放器开关\r\n增加超分辨率 From [Kazumi](https://github.com/Predidit/Kazumi)\r\n修复bug\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.3/ios-release-no-sign.ipa",
+          "size": 21986085,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.2.7",
+          "date": "2025-01-17",
+          "localizedDescription": "修复 #191\r\n\r\n## repost\r\n```\r\nPiliPala重要通知及安全提醒\r\n\r\n\r\n尊敬的PiliPala用户：\r\n\r\n您好！\r\n\r\n感谢您一直以来对PiliPala应用的关注与支持。在此，我们特别需要向您说明一个重要事项：\r\n*PiliPlus并非PiliPala官方直接开发或运营的应用。它属于非PiliPala官方授权开发者中一个独立开发并维护的应用。\r\n\r\n为了确保您的使用安全与权益，我们在此提醒您注意以下几点：\r\n\r\n1. 数据来源与隐私保护\r\n\r\n   - 如您对隐私条款有任何疑问或担忧，建议联系PiliPlus开发者获取详细解答。\r\n\r\n2. 功能兼容性与稳定性\r\n   - PiliPlus可能会根据市场需求和技术发展不断更新功能，但这些更新可能不与PiliPala官方应用完全同步。\r\n   - 在使用过程中，如果遇到任何兼容性问题或应用崩溃，请第一时间向PiliPlus反馈，以便其团队能够迅速解决。\r\n\r\n3. 官方支持与反馈渠道\r\n   - 尽管PiliPlus不是PiliPala官方应用，但我们仍鼓励用户在遇到问题时，首先尝试通过PiliPlus的官方渠道获取帮助。\r\n   - 如果您认为PiliPlus存在安全隐患或违规行为，请同时告知我们（PiliPala），我们将根据反馈进行必要的调查与处理。\r\n\r\n4. 安全意识提升\r\n   - 请保持警惕，避免在非官方渠道下载来历不明的应用版本，以免遭受恶意软件的攻击。\r\n   - 定期检查您的账户安全设置，确保密码复杂度及安全性符合当前安全标准。\r\n\r\n5. 官方合作信息\r\n   \r\n   - PiliPala与PiliPlus之间并无合作关系\r\n   - 对于任何涉及官方合作的最新动态或重要公告，PiliPala将通过官方渠道（如官方网站、社交媒体等）及时发布。\r\n\r\n我们深知，您的信任与支持是我们不断前行的动力。因此，我们始终致力于维护一个安全、健康的使用环境，确保每一位用户都能享受到最优质的服务。\r\n\r\n再次感谢您的理解与支持！如果您有任何疑问或需要进一步的帮助，请随时与我们联系。\r\n\r\n祝您新年快乐。\r\n\r\nPiliPala开发和运营团队\r\n2025年1月16日\r\n```",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.2.7/ios-release-no-sign.ipa",
+          "size": 21915754,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.2.6",
+          "date": "2025-01-16",
+          "localizedDescription": "修复 #173\r\n支持举报动态\r\n直播支持切换画面比例 #181\r\n动态视频，用户投稿: 增加显示标签 #176\r\n修复bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.2.6/ios-release-no-sign.ipa",
+          "size": 21910745,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.2.5",
+          "date": "2025-01-15",
+          "localizedDescription": "修复 #172",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.2.5/ios-release-no-sign.ipa",
+          "size": 21906799,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.2.4",
+          "date": "2025-01-15",
+          "localizedDescription": "优化宫格图片圆角\r\n增加展示用户封禁状态 #158\r\n增加显示用户全部合集/列表 #164\r\n修复视频加载错误 #170 by @orz12\r\n增加显示热门推荐内容入口开关，默认关 #151\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.2.4/ios-release-no-sign.ipa",
+          "size": 21906479,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.2.3",
+          "date": "2025-01-13",
+          "localizedDescription": "优化 #156\r\n增加UID搜索用户 #157\r\n支持显示会员彩色弹幕，可关闭 #148\r\n分段进度条支持点击跳转 #153\r\n增加合并一段时间内获取到的相同弹幕开关 #150",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.2.3/ios-release-no-sign.ipa",
+          "size": 21900905,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.2.2",
+          "date": "2025-01-12",
+          "localizedDescription": "修复 #147\r\n互动抽奖支持点击查看 #145\r\n合并pilipala直播画质切换 #146",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.2.2/ios-release-no-sign.ipa",
+          "size": 21887816,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.2.1",
+          "date": "2025-01-12",
+          "localizedDescription": "优化 #142\r\n修复 #136 #141\r\n优化横屏侧栏图片预览\r\n直播界面显示正在直播的关注列表 #134\r\n增加自定义刷新滑动距离/指示器高度 #139\r\n增加默认使用外部浏览器打开链接选项 #140\r\n保留刷新推荐时，显示上次刷新位置提示开关 #135\r\nWebView: 增加重新设置Cookie，若丢失登录状态，可以尝试重新设置\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.2.1/ios-release-no-sign.ipa",
+          "size": 21882551,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.1.2",
+          "date": "2025-01-10",
+          "localizedDescription": "优化 #128 #129\r\n修复 #104 #125 #133\r\n增加搜索影视\r\n优化跳转观看pgc内容\r\n增加首页影视栏(若没有默认显示，则自行开启)\r\n未读消息类型支持多选 #122\r\n视频简介av/BV号支持点击跳转 #126\r\n横屏播放列表: 只有分P时展开显示 #128\r\n增加过滤app端推荐和热门视频分区 #119\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.2/ios-release-no-sign.ipa",
+          "size": 21869421,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release18-fix",
+          "date": "2025-01-08",
+          "localizedDescription": "修复检测更新 #121",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release18-fix/ios-release-no-sign.ipa",
+          "size": 21876075,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release18",
+          "date": "2025-01-08",
+          "localizedDescription": "修复 #115\r\n优化 #108 #112 #114\r\n增加 CDN 测速 #105\r\n增加评论关键词过滤 #118\r\n增加首页未读消息Badge，可选显示类型 #107\r\n增加横屏下在侧栏打开图片预览开关 #117",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release18/ios-release-no-sign.ipa",
+          "size": 21875938,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release17",
+          "date": "2025-01-06",
+          "localizedDescription": "修复 #99\r\n优化 #100 #101 #103\r\n新的发送弹幕界面 #98\r\n空降助手: 当整个视频属于某一类时，在视频标题前显示标签 #102\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release17/ios-release-no-sign.ipa",
+          "size": 21828168,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release16",
+          "date": "2025-01-04",
+          "localizedDescription": "优化 #95\r\n修复 #92\r\n增加自定义字幕背景边框 #90\r\n增加支持搜索设置项\r\n增加显示继续播放上次观看分P提示\r\n空降助手支持手动跳过",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release16/ios-release-no-sign.ipa",
+          "size": 21804258,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release15",
+          "date": "2025-01-03",
+          "localizedDescription": "优化 #80 #85\r\n修复 #82 #84 #86 #87\r\n增加首页显示无痕模式标识 #81\r\n增加自定义字幕边距/背景不透明度 #77 #78\r\n增加禁用 SSL 证书验证开关 #88\r\n增加记录番剧播放进度\r\n增加获取番剧上次观看进度",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release15/ios-release-no-sign.ipa",
+          "size": 21792881,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release14",
+          "date": "2024-12-31",
+          "localizedDescription": "优化 #69 #72\r\n修复 #65 #66 #68 #73 #74 #79\r\n增加`倒序播放`分P/合集/UP投稿视频/稍后再看/收藏夹 #70\r\n增加`继续播放`UP投稿视频 #70",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release14/ios-release-no-sign.ipa",
+          "size": 21783835,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release13",
+          "date": "2024-12-29",
+          "localizedDescription": "优化界面 #58 #60 #61\r\n显示视频警告/争议信息开关 #63\r\n关闭使用实体键盘后安卓出现绿色焦点边框\r\n修复多选后无法播放全部\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release13/ios-release-no-sign.ipa",
+          "size": 21766322,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release12",
+          "date": "2024-12-27",
+          "localizedDescription": "增加Cookie登录\r\n增加播放全部UP投稿视频\r\n横屏分P/合集列表显示在Tab栏开关 #50\r\n横屏视频页在侧栏打开UP主页开关 #51\r\n蜂窝网络视频画质/音质选项 #52\r\n自定义评论折叠行数 #55\r\n自定义弹幕行高 #56\r\n修复弹幕屏蔽无效\r\n修复播放全部\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release12/ios-release-no-sign.ipa",
+          "size": 21814863,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release11",
+          "date": "2024-12-24",
+          "localizedDescription": "增加导入/导出登录信息，方便多端使用\r\n增加弹幕行高 #45\r\n修复弹幕后台暂停 #46\r\n默认展开/横屏自动展开视频简介开关 #47\r\n显示视频/番剧评论开关\r\n视频页显示相关视频开关\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release11/ios-release-no-sign.ipa",
+          "size": 21746888,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release10",
+          "date": "2024-12-23",
+          "localizedDescription": "自定义视频过滤/定时关闭时长 #41 #44\r\n过滤热门/分区视频标题 #38\r\n同步上游登录页面，播放全部功能\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release10/ios-release-no-sign.ipa",
+          "size": 21733123,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release9",
+          "date": "2024-12-16",
+          "localizedDescription": "更换弹幕库 based on [canvas_danmaku](https://github.com/Predidit/canvas_danmaku)\r\n优化图片查看  based on [interactiveviewer_gallery](https://github.com/qq326646683/interactiveviewer_gallery)\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release9/ios-release-no-sign.ipa",
+          "size": 21720232,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release8-fix",
+          "date": "2024-12-02",
+          "localizedDescription": "fix: fav search item\r\nfix: reset subtitle, viewpoints",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release8-fix/ios-release-no-sign.ipa",
+          "size": 21921581,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release8",
+          "date": "2024-12-02",
+          "localizedDescription": "feat\r\n自定义字幕大小 #28\r\n进度条显示视频分段信息 #28\r\n动态/专栏调节横屏页面比例 #26\r\n\r\nopt\r\n优化三连手势 #29\r\n优化字幕\r\n\r\nfix\r\n修复加载超长字幕卡死\r\nbugs",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release8/ios-release-no-sign.ipa",
+          "size": 21913034,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release7",
+          "date": "2024-11-30",
+          "localizedDescription": "feat\r\n稍后再看、收藏夹多选删除 #17\r\n添加是否使用gRPC加载评论选项，如无法加载评论，可关闭\r\n\r\nopt\r\n优化我的页面弹窗\r\n优化观看记录播放进度\r\n横屏下进入直播间自动全屏 #23\r\n\r\nfix\r\nbugs\r\n\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release7/ios-release-no-sign.ipa",
+          "size": 21898096,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release6",
+          "date": "2024-11-27",
+          "localizedDescription": "feat\r\n自定义全屏弹幕字体大小\r\n\r\nopt\r\nSponsorBlock: 优化提交片段\r\n可删除预设倍速 #11\r\n优化弹幕字体大小 #13\r\n视频简介展开收起 #14\r\n\r\nfix\r\nbugs\r\n\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release6/ios-release-no-sign.ipa",
+          "size": 21861412,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release5-fix",
+          "date": "2024-11-25",
+          "localizedDescription": "fix\r\n修复回复评论",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release5-fix/ios-release-no-sign.ipa",
+          "size": 21849057,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release5",
+          "date": "2024-11-25",
+          "localizedDescription": "feat\r\n合入原版NavBar编辑\r\nSponsorBlock: 支持提交片段\r\n\r\nopt\r\n调整搜索页面\r\n回复后在页面上显示评论\r\n\r\nfix\r\nbugs\r\n\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release5/ios-release-no-sign.ipa",
+          "size": 21848412,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release4",
+          "date": "2024-11-23",
+          "localizedDescription": "feat\r\n搜索用户动态\r\n自定义用户主页默认展示TAB\r\n\r\nopt\r\n优化长图显示\r\n调整横向用户主页\r\n\r\nfix\r\n修复个别表情无法显示\r\nbugs\r\n\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release4/ios-release-no-sign.ipa",
+          "size": 21824485,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release3",
+          "date": "2024-11-20",
+          "localizedDescription": "feat:\r\n获取直播历史弹幕 by @PuerNya\r\n检查未读动态\r\n调色板风格\r\n查看大图质量\r\n\r\nfix:\r\n修复上游设置的版号错误\r\nbugs\r\n\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release3/ios-release-no-sign.ipa",
+          "size": 21810082,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release2",
+          "date": "2024-11-14",
+          "localizedDescription": "revert: sponsorblock: prepass cid",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release2/ios-release-no-sign.ipa",
+          "size": 21826478,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "release1",
+          "date": "2024-11-12",
+          "localizedDescription": "refactor\r\ngRPC [wip]\r\n用户界面\r\n其他\r\n\r\nfeat\r\n直播弹幕\r\n修改头像/用户名/签名/性别/生日\r\n创建/编辑/删除收藏夹\r\n评论楼中楼查看对话\r\n评论楼中楼定位点击查看的评论\r\n评论楼中楼按热度/时间排序\r\n评论点踩\r\n显示ops专栏\r\n私信发图\r\n投币动画\r\n取消/追番，更新追番状态\r\n取消/订阅合集\r\nSponsorBlock\r\n显示视频完整合集\r\n三连动画\r\n番剧三连\r\n带图评论\r\n视频TAG\r\n筛选搜索\r\n转发动态\r\n合集图片\r\n删除/置顶私信\r\n举报用户/评论/视频\r\n删除/发布文本/图片动态\r\n其他\r\n\r\nfix\r\nbugs",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/release1/ios-release-no-sign.ipa",
+          "size": 21808296,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "news": []
+    }
+  ],
+  "news": [
+    {
+      "title": "PiliPlus 2.0.6",
+      "identifier": "release-2.0.6",
+      "caption": "2.0.6",
+      "date": "2026-04-30",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.0.6"
+    },
+    {
+      "title": "PiliPlus 2.0.5",
+      "identifier": "release-2.0.5",
+      "caption": "2.0.5",
+      "date": "2026-04-25",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.0.5"
+    },
+    {
+      "title": "PiliPlus 2.0.4",
+      "identifier": "release-2.0.4",
+      "caption": "2.0.4",
+      "date": "2026-04-14",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.0.4"
+    },
+    {
+      "title": "PiliPlus 2.0.3.2",
+      "identifier": "release-2.0.3.2",
+      "caption": "2.0.3.2",
+      "date": "2026-04-11",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.0.3.2"
+    },
+    {
+      "title": "PiliPlus 2.0.3.1",
+      "identifier": "release-2.0.3.1",
+      "caption": "2.0.3.1",
+      "date": "2026-04-09",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.0.3.1"
+    },
+    {
+      "title": "PiliPlus 2.0.3",
+      "identifier": "release-2.0.3",
+      "caption": "2.0.3",
+      "date": "2026-04-08",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.0.3"
+    },
+    {
+      "title": "PiliPlus 2.0.2",
+      "identifier": "release-2.0.2",
+      "caption": "2.0.2",
+      "date": "2026-03-31",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.0.2"
+    },
+    {
+      "title": "PiliPlus 2.0.1.1",
+      "identifier": "release-2.0.1.1",
+      "caption": "2.0.1.1",
+      "date": "2026-03-15",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.0.1.1"
+    },
+    {
+      "title": "PiliPlus 2.0.1",
+      "identifier": "release-2.0.1",
+      "caption": "2.0.1",
+      "date": "2026-03-14",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.0.1"
+    },
+    {
+      "title": "PiliPlus 2.0.0.1",
+      "identifier": "release-2.0.0.1",
+      "caption": "2.0.0.1",
+      "date": "2026-03-04",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.0.0.1"
+    },
+    {
+      "title": "PiliPlus 2.0.0",
+      "identifier": "release-2.0.0",
+      "caption": "2.0.0",
+      "date": "2026-03-03",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.0.0"
+    },
+    {
+      "title": "PiliPlus 1.1.6",
+      "identifier": "release-1.1.6",
+      "caption": "1.1.6",
+      "date": "2026-02-07",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.6"
+    },
+    {
+      "title": "PiliPlus 1.1.5.7",
+      "identifier": "release-1.1.5.7",
+      "caption": "1.1.5.7",
+      "date": "2026-01-28",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5.7"
+    },
+    {
+      "title": "PiliPlus 1.1.5.6",
+      "identifier": "release-1.1.5.6",
+      "caption": "1.1.5.6",
+      "date": "2026-01-26",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5.6"
+    },
+    {
+      "title": "PiliPlus 1.1.5.5",
+      "identifier": "release-1.1.5.5",
+      "caption": "1.1.5.5",
+      "date": "2026-01-25",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5.5"
+    },
+    {
+      "title": "PiliPlus 1.1.5.4",
+      "identifier": "release-1.1.5.4",
+      "caption": "1.1.5.4",
+      "date": "2026-01-15",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5.4"
+    },
+    {
+      "title": "PiliPlus 1.1.5.3",
+      "identifier": "release-1.1.5.3",
+      "caption": "1.1.5.3",
+      "date": "2026-01-07",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5.3"
+    },
+    {
+      "title": "PiliPlus 1.1.5.2",
+      "identifier": "release-1.1.5.2",
+      "caption": "1.1.5.2",
+      "date": "2026-01-03",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5.2"
+    },
+    {
+      "title": "PiliPlus 1.1.5.1",
+      "identifier": "release-1.1.5.1",
+      "caption": "1.1.5.1",
+      "date": "2025-12-10",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5.1"
+    },
+    {
+      "title": "PiliPlus 1.1.5",
+      "identifier": "release-1.1.5",
+      "caption": "1.1.5",
+      "date": "2025-11-30",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5"
+    },
+    {
+      "title": "PiliPlus 1.1.5-pre8",
+      "identifier": "release-1.1.5-pre8",
+      "caption": "1.1.5-pre8",
+      "date": "2025-11-23",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5-pre8"
+    },
+    {
+      "title": "PiliPlus 1.1.5-pre7",
+      "identifier": "release-1.1.5-pre7",
+      "caption": "1.1.5-pre7",
+      "date": "2025-11-22",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5-pre7"
+    },
+    {
+      "title": "PiliPlus 1.1.5-pre6",
+      "identifier": "release-1.1.5-pre6",
+      "caption": "1.1.5-pre6",
+      "date": "2025-11-17",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5-pre6"
+    },
+    {
+      "title": "PiliPlus 1.1.5-pre5",
+      "identifier": "release-1.1.5-pre5",
+      "caption": "1.1.5-pre5",
+      "date": "2025-11-15",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5-pre5"
+    },
+    {
+      "title": "PiliPlus 1.1.5-pre4",
+      "identifier": "release-1.1.5-pre4",
+      "caption": "1.1.5-pre4",
+      "date": "2025-11-14",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5-pre4"
+    },
+    {
+      "title": "PiliPlus 1.1.5-pre3",
+      "identifier": "release-1.1.5-pre3",
+      "caption": "1.1.5-pre3",
+      "date": "2025-11-12",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5-pre3"
+    },
+    {
+      "title": "PiliPlus 1.1.5-pre2",
+      "identifier": "release-1.1.5-pre2",
+      "caption": "1.1.5-pre2",
+      "date": "2025-11-12",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5-pre2"
+    },
+    {
+      "title": "PiliPlus 1.1.5-pre",
+      "identifier": "release-1.1.5-pre",
+      "caption": "1.1.5-pre",
+      "date": "2025-11-10",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.5-pre"
+    },
+    {
+      "title": "PiliPlus 1.1.4.17",
+      "identifier": "release-1.1.4.17",
+      "caption": "1.1.4.17",
+      "date": "2025-10-28",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.17"
+    },
+    {
+      "title": "PiliPlus 1.1.4.16",
+      "identifier": "release-1.1.4.16",
+      "caption": "1.1.4.16",
+      "date": "2025-10-27",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.16"
+    },
+    {
+      "title": "PiliPlus 1.1.4.15",
+      "identifier": "release-1.1.4.15",
+      "caption": "1.1.4.15",
+      "date": "2025-10-24",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.15"
+    },
+    {
+      "title": "PiliPlus 1.1.4.14",
+      "identifier": "release-1.1.4.14",
+      "caption": "1.1.4.14",
+      "date": "2025-10-21",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.14"
+    },
+    {
+      "title": "PiliPlus 1.1.4.13",
+      "identifier": "release-1.1.4.13",
+      "caption": "1.1.4.13",
+      "date": "2025-10-19",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.13"
+    },
+    {
+      "title": "PiliPlus 1.1.4.12",
+      "identifier": "release-1.1.4.12",
+      "caption": "1.1.4.12",
+      "date": "2025-10-17",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.12"
+    },
+    {
+      "title": "PiliPlus 1.1.4.11",
+      "identifier": "release-1.1.4.11",
+      "caption": "1.1.4.11",
+      "date": "2025-10-16",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.11"
+    },
+    {
+      "title": "PiliPlus 1.1.4.10",
+      "identifier": "release-1.1.4.10",
+      "caption": "1.1.4.10",
+      "date": "2025-10-13",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.10"
+    },
+    {
+      "title": "PiliPlus 1.1.4.8",
+      "identifier": "release-1.1.4.8",
+      "caption": "1.1.4.8",
+      "date": "2025-10-05",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.8"
+    },
+    {
+      "title": "PiliPlus 1.1.4.7",
+      "identifier": "release-1.1.4.7",
+      "caption": "1.1.4.7",
+      "date": "2025-10-02",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.7"
+    },
+    {
+      "title": "PiliPlus 1.1.4.6",
+      "identifier": "release-1.1.4.6",
+      "caption": "1.1.4.6",
+      "date": "2025-09-28",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.6"
+    },
+    {
+      "title": "PiliPlus 1.1.4.5",
+      "identifier": "release-1.1.4.5",
+      "caption": "1.1.4.5",
+      "date": "2025-09-25",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.5"
+    },
+    {
+      "title": "PiliPlus 1.1.4.4",
+      "identifier": "release-1.1.4.4",
+      "caption": "1.1.4.4",
+      "date": "2025-09-10",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.4"
+    },
+    {
+      "title": "PiliPlus 1.1.4.3",
+      "identifier": "release-1.1.4.3",
+      "caption": "1.1.4.3",
+      "date": "2025-08-29",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.3"
+    },
+    {
+      "title": "PiliPlus 1.1.4.2",
+      "identifier": "release-1.1.4.2",
+      "caption": "1.1.4.2",
+      "date": "2025-08-28",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.2"
+    },
+    {
+      "title": "PiliPlus 1.1.4.1",
+      "identifier": "release-1.1.4.1",
+      "caption": "1.1.4.1",
+      "date": "2025-08-24",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4.1"
+    },
+    {
+      "title": "PiliPlus 1.1.4",
+      "identifier": "release-1.1.4",
+      "caption": "1.1.4",
+      "date": "2025-08-23",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.4"
+    },
+    {
+      "title": "PiliPlus 1.1.3.40-fix",
+      "identifier": "release-1.1.3.40-fix",
+      "caption": "1.1.3.40-fix",
+      "date": "2025-07-15",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.40-fix"
+    },
+    {
+      "title": "PiliPlus 1.1.3.40",
+      "identifier": "release-1.1.3.40",
+      "caption": "1.1.3.40",
+      "date": "2025-07-11",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.40"
+    },
+    {
+      "title": "PiliPlus 1.1.3.39-fix3",
+      "identifier": "release-1.1.3.39-fix3",
+      "caption": "1.1.3.39-fix3",
+      "date": "2025-07-06",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.39-fix3"
+    },
+    {
+      "title": "PiliPlus 1.1.3.39-fix2",
+      "identifier": "release-1.1.3.39-fix2",
+      "caption": "1.1.3.39-fix2",
+      "date": "2025-07-06",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.39-fix2"
+    },
+    {
+      "title": "PiliPlus 1.1.3.39-fix",
+      "identifier": "release-1.1.3.39-fix",
+      "caption": "1.1.3.39-fix",
+      "date": "2025-07-02",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.39-fix"
+    },
+    {
+      "title": "PiliPlus 1.1.3.39",
+      "identifier": "release-1.1.3.39",
+      "caption": "1.1.3.39",
+      "date": "2025-07-01",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.39"
+    },
+    {
+      "title": "PiliPlus 1.1.3.38",
+      "identifier": "release-1.1.3.38",
+      "caption": "1.1.3.38",
+      "date": "2025-06-14",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.38"
+    },
+    {
+      "title": "PiliPlus 1.1.3.37-fix2",
+      "identifier": "release-1.1.3.37-fix2",
+      "caption": "1.1.3.37-fix2",
+      "date": "2025-06-01",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.37-fix2"
+    },
+    {
+      "title": "PiliPlus 1.1.3.37-fix",
+      "identifier": "release-1.1.3.37-fix",
+      "caption": "1.1.3.37-fix",
+      "date": "2025-06-01",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.37-fix"
+    },
+    {
+      "title": "PiliPlus 1.1.3.37",
+      "identifier": "release-1.1.3.37",
+      "caption": "1.1.3.37",
+      "date": "2025-06-01",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.37"
+    },
+    {
+      "title": "PiliPlus 1.1.3.36",
+      "identifier": "release-1.1.3.36",
+      "caption": "1.1.3.36",
+      "date": "2025-05-28",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.36"
+    },
+    {
+      "title": "PiliPlus 1.1.3.35",
+      "identifier": "release-1.1.3.35",
+      "caption": "1.1.3.35",
+      "date": "2025-05-20",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.35"
+    },
+    {
+      "title": "PiliPlus 1.1.3.34",
+      "identifier": "release-1.1.3.34",
+      "caption": "1.1.3.34",
+      "date": "2025-05-08",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.34"
+    },
+    {
+      "title": "PiliPlus 1.1.3.33",
+      "identifier": "release-1.1.3.33",
+      "caption": "1.1.3.33",
+      "date": "2025-04-30",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.33"
+    },
+    {
+      "title": "PiliPlus 1.1.3.32",
+      "identifier": "release-1.1.3.32",
+      "caption": "1.1.3.32",
+      "date": "2025-04-23",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.32"
+    },
+    {
+      "title": "PiliPlus 1.1.3.31",
+      "identifier": "release-1.1.3.31",
+      "caption": "1.1.3.31",
+      "date": "2025-04-15",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.31"
+    },
+    {
+      "title": "PiliPlus 1.1.3.30",
+      "identifier": "release-1.1.3.30",
+      "caption": "1.1.3.30",
+      "date": "2025-04-09",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.30"
+    },
+    {
+      "title": "PiliPlus 1.1.3.29",
+      "identifier": "release-1.1.3.29",
+      "caption": "1.1.3.29",
+      "date": "2025-04-05",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.29"
+    },
+    {
+      "title": "PiliPlus 1.1.3.28",
+      "identifier": "release-1.1.3.28",
+      "caption": "1.1.3.28",
+      "date": "2025-04-03",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.28"
+    },
+    {
+      "title": "PiliPlus 1.1.3.27",
+      "identifier": "release-1.1.3.27",
+      "caption": "1.1.3.27",
+      "date": "2025-04-03",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.27"
+    },
+    {
+      "title": "PiliPlus 1.1.3.26",
+      "identifier": "release-1.1.3.26",
+      "caption": "1.1.3.26",
+      "date": "2025-03-29",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.26"
+    },
+    {
+      "title": "PiliPlus 1.1.3.25",
+      "identifier": "release-1.1.3.25",
+      "caption": "1.1.3.25",
+      "date": "2025-03-27",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.25"
+    },
+    {
+      "title": "PiliPlus 1.1.3.24",
+      "identifier": "release-1.1.3.24",
+      "caption": "1.1.3.24",
+      "date": "2025-03-24",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.24"
+    },
+    {
+      "title": "PiliPlus 1.1.3.23",
+      "identifier": "release-1.1.3.23",
+      "caption": "1.1.3.23",
+      "date": "2025-03-23",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.23"
+    },
+    {
+      "title": "PiliPlus 1.1.3.22",
+      "identifier": "release-1.1.3.22",
+      "caption": "1.1.3.22",
+      "date": "2025-03-13",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.22"
+    },
+    {
+      "title": "PiliPlus 1.1.3.21",
+      "identifier": "release-1.1.3.21",
+      "caption": "1.1.3.21",
+      "date": "2025-03-07",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.21"
+    },
+    {
+      "title": "PiliPlus 1.1.3.20",
+      "identifier": "release-1.1.3.20",
+      "caption": "1.1.3.20",
+      "date": "2025-03-01",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.20"
+    },
+    {
+      "title": "PiliPlus 1.1.3.19",
+      "identifier": "release-1.1.3.19",
+      "caption": "1.1.3.19",
+      "date": "2025-02-28",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.19"
+    },
+    {
+      "title": "PiliPlus 1.1.3.18",
+      "identifier": "release-1.1.3.18",
+      "caption": "1.1.3.18",
+      "date": "2025-02-27",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.18"
+    },
+    {
+      "title": "PiliPlus 1.1.3.17",
+      "identifier": "release-1.1.3.17",
+      "caption": "1.1.3.17",
+      "date": "2025-02-22",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.17"
+    },
+    {
+      "title": "PiliPlus 1.1.3.16",
+      "identifier": "release-1.1.3.16",
+      "caption": "1.1.3.16",
+      "date": "2025-02-22",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.16"
+    },
+    {
+      "title": "PiliPlus 1.1.3.15",
+      "identifier": "release-1.1.3.15",
+      "caption": "1.1.3.15",
+      "date": "2025-02-19",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.15"
+    },
+    {
+      "title": "PiliPlus 1.1.3.14",
+      "identifier": "release-1.1.3.14",
+      "caption": "1.1.3.14",
+      "date": "2025-02-16",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.14"
+    },
+    {
+      "title": "PiliPlus 1.1.3.13",
+      "identifier": "release-1.1.3.13",
+      "caption": "1.1.3.13",
+      "date": "2025-02-16",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.13"
+    },
+    {
+      "title": "PiliPlus 1.1.3.12",
+      "identifier": "release-1.1.3.12",
+      "caption": "1.1.3.12",
+      "date": "2025-02-15",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.12"
+    },
+    {
+      "title": "PiliPlus 1.1.3.11",
+      "identifier": "release-1.1.3.11",
+      "caption": "1.1.3.11",
+      "date": "2025-02-15",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.11"
+    },
+    {
+      "title": "PiliPlus 1.1.3.10",
+      "identifier": "release-1.1.3.10",
+      "caption": "1.1.3.10",
+      "date": "2025-02-13",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.10"
+    },
+    {
+      "title": "PiliPlus 1.1.3.9",
+      "identifier": "release-1.1.3.9",
+      "caption": "1.1.3.9",
+      "date": "2025-02-12",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.9"
+    },
+    {
+      "title": "PiliPlus 1.1.3.8",
+      "identifier": "release-1.1.3.8",
+      "caption": "1.1.3.8",
+      "date": "2025-02-07",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.8"
+    },
+    {
+      "title": "PiliPlus 1.1.3.7",
+      "identifier": "release-1.1.3.7",
+      "caption": "1.1.3.7",
+      "date": "2025-02-04",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.7"
+    },
+    {
+      "title": "PiliPlus 1.1.3.6",
+      "identifier": "release-1.1.3.6",
+      "caption": "1.1.3.6",
+      "date": "2025-02-03",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.6"
+    },
+    {
+      "title": "PiliPlus 1.1.3.5",
+      "identifier": "release-1.1.3.5",
+      "caption": "1.1.3.5",
+      "date": "2025-01-31",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.5"
+    },
+    {
+      "title": "PiliPlus 1.1.3.4",
+      "identifier": "release-1.1.3.4",
+      "caption": "1.1.3.4",
+      "date": "2025-01-30",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.4"
+    },
+    {
+      "title": "PiliPlus 1.1.3.3",
+      "identifier": "release-1.1.3.3",
+      "caption": "1.1.3.3",
+      "date": "2025-01-30",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.3"
+    },
+    {
+      "title": "PiliPlus 1.1.3.2",
+      "identifier": "release-1.1.3.2",
+      "caption": "1.1.3.2",
+      "date": "2025-01-28",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.2"
+    },
+    {
+      "title": "PiliPlus 1.1.3.1",
+      "identifier": "release-1.1.3.1",
+      "caption": "1.1.3.1",
+      "date": "2025-01-26",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3.1"
+    },
+    {
+      "title": "PiliPlus 1.1.3",
+      "identifier": "release-1.1.3",
+      "caption": "1.1.3",
+      "date": "2025-01-25",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.3"
+    },
+    {
+      "title": "PiliPlus 1.1.2.7",
+      "identifier": "release-1.1.2.7",
+      "caption": "1.1.2.7",
+      "date": "2025-01-17",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.2.7"
+    },
+    {
+      "title": "PiliPlus 1.1.2.6",
+      "identifier": "release-1.1.2.6",
+      "caption": "1.1.2.6",
+      "date": "2025-01-16",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.2.6"
+    },
+    {
+      "title": "PiliPlus 1.1.2.5",
+      "identifier": "release-1.1.2.5",
+      "caption": "1.1.2.5",
+      "date": "2025-01-15",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.2.5"
+    },
+    {
+      "title": "PiliPlus 1.1.2.4",
+      "identifier": "release-1.1.2.4",
+      "caption": "1.1.2.4",
+      "date": "2025-01-15",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.2.4"
+    },
+    {
+      "title": "PiliPlus 1.1.2.3",
+      "identifier": "release-1.1.2.3",
+      "caption": "1.1.2.3",
+      "date": "2025-01-13",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.2.3"
+    },
+    {
+      "title": "PiliPlus 1.1.2.2",
+      "identifier": "release-1.1.2.2",
+      "caption": "1.1.2.2",
+      "date": "2025-01-12",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.2.2"
+    },
+    {
+      "title": "PiliPlus 1.1.2.1",
+      "identifier": "release-1.1.2.1",
+      "caption": "1.1.2.1",
+      "date": "2025-01-12",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.2.1"
+    },
+    {
+      "title": "PiliPlus 1.1.2",
+      "identifier": "release-1.1.2",
+      "caption": "1.1.2",
+      "date": "2025-01-10",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/1.1.2"
+    },
+    {
+      "title": "PiliPlus release18-fix",
+      "identifier": "release-release18-fix",
+      "caption": "release18-fix",
+      "date": "2025-01-08",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release18-fix"
+    },
+    {
+      "title": "PiliPlus release18",
+      "identifier": "release-release18",
+      "caption": "release18",
+      "date": "2025-01-08",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release18"
+    },
+    {
+      "title": "PiliPlus release17",
+      "identifier": "release-release17",
+      "caption": "release17",
+      "date": "2025-01-06",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release17"
+    },
+    {
+      "title": "PiliPlus release16",
+      "identifier": "release-release16",
+      "caption": "release16",
+      "date": "2025-01-04",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release16"
+    },
+    {
+      "title": "PiliPlus release15",
+      "identifier": "release-release15",
+      "caption": "release15",
+      "date": "2025-01-03",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release15"
+    },
+    {
+      "title": "PiliPlus release14",
+      "identifier": "release-release14",
+      "caption": "release14",
+      "date": "2024-12-31",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release14"
+    },
+    {
+      "title": "PiliPlus release13",
+      "identifier": "release-release13",
+      "caption": "release13",
+      "date": "2024-12-29",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release13"
+    },
+    {
+      "title": "PiliPlus release12",
+      "identifier": "release-release12",
+      "caption": "release12",
+      "date": "2024-12-27",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release12"
+    },
+    {
+      "title": "PiliPlus release11",
+      "identifier": "release-release11",
+      "caption": "release11",
+      "date": "2024-12-24",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release11"
+    },
+    {
+      "title": "PiliPlus release10",
+      "identifier": "release-release10",
+      "caption": "release10",
+      "date": "2024-12-23",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release10"
+    },
+    {
+      "title": "PiliPlus release9",
+      "identifier": "release-release9",
+      "caption": "release9",
+      "date": "2024-12-16",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release9"
+    },
+    {
+      "title": "PiliPlus release8-fix",
+      "identifier": "release-release8-fix",
+      "caption": "release8-fix",
+      "date": "2024-12-02",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release8-fix"
+    },
+    {
+      "title": "PiliPlus release8",
+      "identifier": "release-release8",
+      "caption": "release8",
+      "date": "2024-12-02",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release8"
+    },
+    {
+      "title": "PiliPlus release7",
+      "identifier": "release-release7",
+      "caption": "release7",
+      "date": "2024-11-30",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release7"
+    },
+    {
+      "title": "PiliPlus release6",
+      "identifier": "release-release6",
+      "caption": "release6",
+      "date": "2024-11-27",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release6"
+    },
+    {
+      "title": "PiliPlus release5-fix",
+      "identifier": "release-release5-fix",
+      "caption": "release5-fix",
+      "date": "2024-11-25",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release5-fix"
+    },
+    {
+      "title": "PiliPlus release5",
+      "identifier": "release-release5",
+      "caption": "release5",
+      "date": "2024-11-25",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release5"
+    },
+    {
+      "title": "PiliPlus release4",
+      "identifier": "release-release4",
+      "caption": "release4",
+      "date": "2024-11-23",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release4"
+    },
+    {
+      "title": "PiliPlus release3",
+      "identifier": "release-release3",
+      "caption": "release3",
+      "date": "2024-11-20",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release3"
+    },
+    {
+      "title": "PiliPlus release2",
+      "identifier": "release-release2",
+      "caption": "release2",
+      "date": "2024-11-14",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release2"
+    },
+    {
+      "title": "PiliPlus release1",
+      "identifier": "release-release1",
+      "caption": "release1",
+      "date": "2024-11-12",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/release1"
+    }
+  ]
+}
