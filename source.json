@@ -21,6 +21,15 @@
       "tintColor": "#00AEEF",
       "versions": [
         {
+          "version": "2.0.7",
+          "buildVersion": "4940",
+          "date": "2026-05-05",
+          "localizedDescription": "优化安卓倾斜角度切视频换方向 #1953\r\n桌面端音频播放页支持调节音量 #1950\r\n评论转发到动态文字按钮改成图标按钮 #1937\r\n直播发送弹幕面板半透明背景改为透明 #1944\r\n\r\n修复评论布局 #1925\r\n修复 iOS 侧滑手势冲突 #1929\r\n修复一些安卓设备无法降低系统亮度\r\n修复关闭二级页面时其余手势被取消 #1947\r\n修复视频方向切换 #1926 by @My-Responsitories\r\n修复搜索结果标题符号显示 #1956 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.7/PiliPlus_ios_2.0.7%2B4940.ipa",
+          "size": 23938472,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "2.0.6",
           "buildVersion": "4915",
           "date": "2026-04-30",
@@ -1026,6 +1035,16 @@
     }
   ],
   "news": [
+    {
+      "title": "PiliPlus 2.0.7",
+      "identifier": "release-2.0.7",
+      "caption": "2.0.7",
+      "date": "2026-05-05",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.0.7"
+    },
     {
       "title": "PiliPlus 2.0.6",
       "identifier": "release-2.0.6",
