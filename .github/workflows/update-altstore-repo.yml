@@ -23,7 +23,7 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v7
 
-      - name: Build and update source.json
+      - name: Build and update apps.json
         run: uv run scripts/update_source.py
 
       - name: Commit and push if changed
@@ -31,12 +31,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add source.json
-          latest_version=$(jq -r '.apps[0].versions[0].version // "unknown"' source.json)
+          git add apps.json
+          latest_version=$(jq -r '.apps[0].versions[0].version // "unknown"' apps.json)
           echo latest version is $latest_version
           
           if git diff --cached --quiet; then
-            echo "No changes in source.json"
+            echo "No changes in apps.json"
             exit 0
           fi
 

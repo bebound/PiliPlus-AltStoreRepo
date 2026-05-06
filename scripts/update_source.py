@@ -1,4 +1,4 @@
-"""Fetch upstream GitHub releases and update source.json for AltStore.
+"""Fetch upstream GitHub releases and update apps.json for AltStore.
 doc: https://faq.altstore.io/developers/make-a-source
 repo: https://github.com/bggRGjQaUbCoE/PiliPlus
 """
@@ -15,7 +15,7 @@ import requests
 # ---------------------------------------------------------------------------
 
 SOURCE_REPO = "bggRGjQaUbCoE/PiliPlus"
-SOURCE_JSON = Path("source.json")
+SOURCE_JSON = Path("apps.json")
 
 REPO_NAME = "PiliPlus"
 REPO_SUBTITLE = "Unofficial PiliPlus AltStore source"
@@ -65,7 +65,7 @@ def extract_build_version(filename: str) -> str:
 # ---------------------------------------------------------------------------
 
 def init() -> dict:
-    """Load existing ``source.json`` or bootstrap a fresh skeleton."""
+    """Load existing ``apps.json`` or bootstrap a fresh skeleton."""
     return {
         "name": REPO_NAME,
         "subtitle": REPO_SUBTITLE,
