@@ -21,6 +21,15 @@
       "tintColor": "#00AEEF",
       "versions": [
         {
+          "version": "2.0.7.2",
+          "buildVersion": "4956",
+          "date": "2026-05-15",
+          "localizedDescription": "修复 #2075 #2087\r\n其他调整 #2100 by @My-Responsitories\r\n定时发布动态不立即检查是否可见 #2059 by @uhiovk",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.7.2/PiliPlus_ios_2.0.7%2B4956.ipa",
+          "size": 23837357,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "2.0.7.1",
           "buildVersion": "4946",
           "date": "2026-05-10",
@@ -1044,6 +1053,16 @@
     }
   ],
   "news": [
+    {
+      "title": "PiliPlus 2.0.7.2",
+      "identifier": "release-2.0.7.2",
+      "caption": "2.0.7.2",
+      "date": "2026-05-15",
+      "tintColor": "#00AEEF",
+      "notify": true,
+      "appID": "com.bggRGjQaUbCoE.PiliPlus",
+      "url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/tag/2.0.7.2"
+    },
     {
       "title": "PiliPlus 2.0.7.1",
       "identifier": "release-2.0.7.1",
